@@ -1,12 +1,137 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Academic Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Özge Tekin</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      color: #222;
+      background-color: #ffffff;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 850px;
+      margin: 0 auto;
+      padding: 60px 30px;
+    }
+
+    header {
+      margin-bottom: 60px;
+    }
+
+    h1 {
+      font-size: 42px;
+      margin-bottom: 5px;
+    }
+
+    .subtitle {
+      font-size: 20px;
+      color: #666;
+      margin-top: 0;
+    }
+
+    nav {
+      margin-top: 30px;
+    }
+
+    nav a {
+      margin-right: 25px;
+      color: #333;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    h2 {
+      font-size: 25px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 8px;
+    }
+
+    footer {
+      margin-top: 70px;
+      color: #777;
+      font-size: 14px;
+    }
+  </style>
 </head>
 
 <body>
-  <h1>Welcome to my website</h1>
 
-  <p>This is my academic website.</p>
+  <div class="container">
+
+    <header>
+      <h1>Özge Tekin</h1>
+
+      <p class="subtitle">
+        PhD Student
+      </p>
+
+      <nav>
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#notes">Notes</a>
+        <a href="#cv">CV</a>
+      </nav>
+    </header>
+
+
+    <section id="about">
+      <h2>About</h2>
+
+      <p>
+        I am a PhD student in the Optimization and Operational Research group
+        at the School of Mathematics, University of Edinburgh.
+      </p>
+    </section>
+
+
+    <section id="research">
+      <h2>Research</h2>
+
+      <p>
+        My research interests include queueing theory, heterogeneous many-server
+        systems, routing policies, and heavy-traffic analysis.
+      </p>
+    </section>
+
+
+    <section id="notes">
+      <h2>Notes</h2>
+
+      <p>
+        I plan to use this space for research notes, mathematical concepts,
+        and other topics I am studying.
+      </p>
+    </section>
+
+
+    <section id="cv">
+      <h2>CV</h2>
+
+      <p>
+        CV coming soon.
+      </p>
+    </section>
+
+
+    <footer>
+      <p>© 2026 Özge Tekin</p>
+    </footer>
+
+  </div>
+
 </body>
 </html>
